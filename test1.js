@@ -22,6 +22,7 @@ if (obj.data && obj.data.lessons) {
   obj.data.vip_button_text = "successful";
   obj.data.is_vip = "1";
   obj.data.vip = true;
+  obj.data.total_free_seconds = "6000";
   $done({
     body: JSON.stringify(obj)
   });
