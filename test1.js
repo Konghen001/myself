@@ -1,6 +1,6 @@
 /*
 [rewrite_local]
-^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2|chatai\.qupeiyin\.com\/lesson\/getLessons) url script-response-body https://raw.githubusercontent.com/Konghen001/myself/main/AIEnglish.js
+^https:\/\/(chatai\.qupeiyin\.com\/member\/index|www\.longstargpt\.com\/member\/index\/chatgpt\/chat\/sseV2|chatai\.qupeiyin\.com\/lesson\/getLessons) url script-response-body https://raw.githubusercontent.com/Konghen001/myself/main/test1.js
 
 [mitm] 
 
