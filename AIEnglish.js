@@ -21,6 +21,6 @@ body = body.replace(/"vip_text":".*?"/g, '"vip_text":"永久VIP"');
 body = body.replace(/"vip_endtime":".*?"/, '"vip_endtime":"998799879987"');
 body = body.replace(/"is_vip":\s*"\d"/g, '"is_vip":"1"');
 body = body.replace(/"vip_button_text":".*?"/g, '"vip_button_text":"@TGios151"');
-//body = body.replace(/"is_lock":\s*"\d"/g, '"is_lock":"0"');
-//body = body.replace(/"is_audition":\s*"\d"/g, '"is_audition":"1"');
+body = body.replace(/"vip_endtime":\s*"\d"/g, '"vip_endtime":"6000"');
+body = body.replace(/"forbid_end_time":\s*"\d"/g, '"forbid_end_time":4800');
 $done({ body });
