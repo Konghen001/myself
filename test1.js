@@ -10,10 +10,6 @@ hostname = chatai.qupeiyin.com
 
 let obj = JSON.parse($response.body);
 
-if (obj.status){
-  obj.status = "1";
-}
-
 if (obj.data && obj.data.lessons) {
   obj.data.lessons.is_lock = "0";
   obj.data.lessons.is_audition = "1";
@@ -27,7 +23,6 @@ if (obj.data && obj.data.lessons) {
   obj.data.vip_button_text = "successful";
   obj.data.is_vip = "1";
   obj.data.vip = true;
-  obj.data.free_second = "4800";
 
   $done({
     body: JSON.stringify(obj)
