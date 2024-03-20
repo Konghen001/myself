@@ -9,6 +9,11 @@ hostname = chatai.qupeiyin.com
 */
 
 let obj = JSON.parse($response.body);
+
+if (obj.status){
+  obj.status = "1";
+}
+
 if (obj.data && obj.data.lessons) {
   obj.data.lessons.is_lock = "0";
   obj.data.lessons.is_audition = "1";
