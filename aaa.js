@@ -1,4 +1,7 @@
 /*
+chaton ai app
+need to logon to activate the subscribe
+
 [rewrite_local]
 ^https:\/\/billing\.chaton\.ai\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/Konghen001/myself/main/aaa.js
 
